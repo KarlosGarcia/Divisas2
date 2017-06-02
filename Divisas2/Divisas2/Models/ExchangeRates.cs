@@ -33,23 +33,23 @@ namespace Divisas2.Models
             public double AWG { get; set; }
             public double AZN { get; set; }
             public double BAM { get; set; }
-            public int BBD { get; set; }
+            public double BBD { get; set; }
             public double BDT { get; set; }
             public double BGN { get; set; }
             public double BHD { get; set; }
-            public int BIF { get; set; }
-            public int BMD { get; set; }
+            public double BIF { get; set; }
+            public double BMD { get; set; }
             public double BND { get; set; }
             public double BOB { get; set; }
             public double BRL { get; set; }
-            public int BSD { get; set; }
+            public double BSD { get; set; }
             public double BTC { get; set; }
             public double BTN { get; set; }
             public double BWP { get; set; }
             public double BYN { get; set; }
             public double BZD { get; set; }
             public double CAD { get; set; }
-            public int CDF { get; set; }
+            public double CDF { get; set; }
             public double CHF { get; set; }
             public double CLF { get; set; }
             public double CLP { get; set; }
@@ -57,7 +57,7 @@ namespace Divisas2.Models
             public double CNY { get; set; }
             public double COP { get; set; }
             public double CRC { get; set; }
-            public int CUC { get; set; }
+            public double CUC { get; set; }
             public double CUP { get; set; }
             public double CVE { get; set; }
             public double CZK { get; set; }
@@ -77,7 +77,7 @@ namespace Divisas2.Models
             public double GHS { get; set; }
             public double GIP { get; set; }
             public double GMD { get; set; }
-            public int GNF { get; set; }
+            public double GNF { get; set; }
             public double GTQ { get; set; }
             public double GYD { get; set; }
             public double HKD { get; set; }
@@ -89,7 +89,7 @@ namespace Divisas2.Models
             public double ILS { get; set; }
             public double IMP { get; set; }
             public double INR { get; set; }
-            public int IQD { get; set; }
+            public double IQD { get; set; }
             public double IRR { get; set; }
             public double ISK { get; set; }
             public double JEP { get; set; }
@@ -98,14 +98,14 @@ namespace Divisas2.Models
             public double JPY { get; set; }
             public double KES { get; set; }
             public double KGS { get; set; }
-            public int KHR { get; set; }
+            public double KHR { get; set; }
             public double KMF { get; set; }
             public double KPW { get; set; }
             public double KRW { get; set; }
             public double KWD { get; set; }
             public double KYD { get; set; }
             public double KZT { get; set; }
-            public int LAK { get; set; }
+            public double LAK { get; set; }
             public double LBP { get; set; }
             public double LKR { get; set; }
             public double LRD { get; set; }
@@ -113,7 +113,7 @@ namespace Divisas2.Models
             public double LYD { get; set; }
             public double MAD { get; set; }
             public double MDL { get; set; }
-            public int MGA { get; set; }
+            public double MGA { get; set; }
             public double MKD { get; set; }
             public double MMK { get; set; }
             public double MNT { get; set; }
@@ -126,13 +126,13 @@ namespace Divisas2.Models
             public double MYR { get; set; }
             public double MZN { get; set; }
             public double NAD { get; set; }
-            public int NGN { get; set; }
+            public double NGN { get; set; }
             public double NIO { get; set; }
             public double NOK { get; set; }
             public double NPR { get; set; }
             public double NZD { get; set; }
             public double OMR { get; set; }
-            public int PAB { get; set; }
+            public double PAB { get; set; }
             public double PEN { get; set; }
             public double PGK { get; set; }
             public double PHP { get; set; }
@@ -143,7 +143,7 @@ namespace Divisas2.Models
             public double RON { get; set; }
             public double RSD { get; set; }
             public double RUB { get; set; }
-            public int RWF { get; set; }
+            public double RWF { get; set; }
             public double SAR { get; set; }
             public double SBD { get; set; }
             public double SCR { get; set; }
@@ -152,7 +152,7 @@ namespace Divisas2.Models
             public double SGD { get; set; }
             public double SHP { get; set; }
             public double SLL { get; set; }
-            public int SOS { get; set; }
+            public double SOS { get; set; }
             public double SRD { get; set; }
             public double SSP { get; set; }
             public double STD { get; set; }
@@ -167,12 +167,12 @@ namespace Divisas2.Models
             public double TRY { get; set; }
             public double TTD { get; set; }
             public double TWD { get; set; }
-            public int TZS { get; set; }
+            public double TZS { get; set; }
             public double UAH { get; set; }
             public double UGX { get; set; }
-            public int USD { get; set; }
+            public double USD { get; set; }
             public double UYU { get; set; }
-            public int UZS { get; set; }
+            public double UZS { get; set; }
             public double VEF { get; set; }
             public double VND { get; set; }
             public double VUV { get; set; }
@@ -197,6 +197,8 @@ namespace Divisas2.Models
             public double TaxRate { get; set; }
 
             public string Code { get; set; }
-        }
+
+            public string CodeTaxRate { get; set; }
+    }
 
 }

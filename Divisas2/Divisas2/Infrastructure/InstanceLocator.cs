@@ -4,7 +4,8 @@ namespace Divisas2.Infrastructure
 {
     public class InstanceLocator
     {
-        public MainViewModel Main;
+        public MainViewModel Main { get; set; }
+
         public InstanceLocator()
         {
             Main = new MainViewModel();
