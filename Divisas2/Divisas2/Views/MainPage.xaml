@@ -27,7 +27,15 @@
                     HorizontalOptions="FillAndExpand" 
                     VerticalOptions="Center">
             </control:BindablePicker>
-            <Button 
+            <Image
+                HorizontalOptions="End"
+                Source="iconChange.png">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding TraslateCodeCommand}"/>
+                </Image.GestureRecognizers>
+            </Image>
+                
+            <!--<Button 
                     Command="{Binding TraslateCodeCommand}" 
                     IsEnabled="{Binding IsEnabled}" 
                     Text="Intercambiar Monedas" 
@@ -35,7 +43,8 @@
                     TextColor="White" 
                     HeightRequest="40" 
                     BorderRadius="20">
-            </Button>
+            </Button>-->
+            
             <Label 
                     Text="Modena destino:">
             </Label>

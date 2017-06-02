@@ -147,22 +147,22 @@ namespace Divisas2.ViewModels
             IsRunning = true;
             IsEnabled = true;
 
-            if (!CrossConnectivity.Current.IsConnected)
-            {
-                IsRunning = false;
-                IsEnabled = true;
-                await App.Current.MainPage.DisplayAlert("Error", "Por favor verifica tu conexion a Internet", "Aceptar");
-                return;
-            }
+            //if (!CrossConnectivity.Current.IsConnected)
+            //{
+            //    IsRunning = false;
+            //    IsEnabled = true;
+            //    await App.Current.MainPage.DisplayAlert("Error", "Por favor verifica tu conexion a Internet", "Aceptar");
+            //    return;
+            //}
 
-            var IsReachable = await CrossConnectivity.Current.IsRemoteReachable("google.com");
-            if (!IsReachable)
-            {
-                IsRunning = false;
-                IsEnabled = true;
-                await App.Current.MainPage.DisplayAlert("Error", "Por favor verifica tu conexion a Internet", "Aceptar");
-                return;
-            }
+            //var IsReachable = await CrossConnectivity.Current.IsRemoteReachable("google.com");
+            //if (!IsReachable)
+            //{
+            //    IsRunning = false;
+            //    IsEnabled = true;
+            //    await App.Current.MainPage.DisplayAlert("Error", "Por favor verifica tu conexion a Internet", "Aceptar");
+            //    return;
+            //}
 
             try
             {
